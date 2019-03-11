@@ -33,6 +33,14 @@ public class AppTest
      */
     public void testApp()
     {
+    	System.out.println(System.getProperty("browser"));
+        System.out.println(System.getProperty("Env"));
         assertTrue( true );
+    }
+    
+    public void info()
+    {
+    	System.out.println(System.getProperty("Browser"));
+        System.out.println(System.getProperty("Env"));
     }
 }
